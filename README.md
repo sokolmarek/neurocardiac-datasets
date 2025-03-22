@@ -18,6 +18,7 @@ So far, the datasets are categorized into five main types:
 5. [Virtual reality](#virtual-reality) – Includes datasets collected in virtual reality environments.
 6. [Mixed](#mixed) – Includes datasets that capture both cognitive and emotional responses.   
 7. [Stimulation](#stimulation) – Includes datasets focused on physiological responses to various stimuli.   
+8. [Non-ECG Multimodal](#non-ecg-multimodal) – Includes datasets with multimodal physiological data excluding ECG.
  
 ## Cognitive Load
 
@@ -37,6 +38,7 @@ So far, the datasets are categorized into five main types:
 |-------|---|---------|------------|
 | [WESAD (Wearable Stress and Affect Detection)](https://dl.acm.org/doi/10.1145/3242969.3242985) | 15 | Trier Social Stress Test (public speaking, mental arithmetic), watching amusing/neutral videos | ECG, EMG, Respiration, EDA, PPG, Accelerometer |
 | [SWELL-KW (Stress and User Modeling at Work)](https://cs.ru.nl/~skoldijk/SWELL-KW/Dataset.html) | 25 | Office work tasks with interruptions and time pressure | ECG, EDA, Body Posture (Kinect), Facial Video |
+| [cStress](https://pmc.ncbi.nlm.nih.gov/articles/PMC4631393/) | 41 | Trier social stress test, cold pressor, mental arithmetic | ECG, Respiration, Accelerometer |
 
 ---
 
@@ -80,6 +82,7 @@ So far, the datasets are categorized into five main types:
 | [CLAS (Cognitive Load, Affect and Stress)](https://dx.doi.org/10.21227/ybsw-yr53) | 62 | Math problems, logic puzzles, Stroop test, emotional images, audio/video stimuli | ECG, PPG, EDA, Accelerometer |
 | [ECSMP (Emotion, Cognition, Sleep, and Multi-Model Physiological Signals)](https://doi.org/10.1016/j.dib.2021.107660) | 20 | Cognitive tasks, emotional stimuli, sleep monitoring | EEG, ECG, PPG, EOG, EMG, Respiration, GSR, Temperature |
 | [StressID (Multimodal Stress Identification Dataset)](https://project.inria.fr/stressid/) | 65 | Emotional video clips, mental arithmetic, reading, public speaking | ECG, EDA, Respiration, Video, Audio |
+| [SenseCobot](https://zenodo.org/records/8363762) | 21 | Collaborative robotics programming tasks | ECG, EDA, EEG, Body Temperature, BVP, Facial Emotions, NASA-TLX Questionnaires |
 
 ---
 
@@ -87,6 +90,13 @@ So far, the datasets are categorized into five main types:
 
 | Title | N | Stimuli | Modalities |
 |-------|---|---------|------------|
-| [Concurrent EEG, ECG, and Behavior with tES](https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior#i-want-to-look-at-individual-stimulation-trials) | 62 sessions | tES (9 types), cognitive vigilance task | EEG, ECG, EOG, Behavioral |
+| [Concurrent EEG, ECG, and Behavior with tES](https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior#i-want-to-look-at-individual-stimulation-trials) | 62 | tES (9 types), cognitive vigilance task | EEG, ECG, EOG, Behavioral |
+
+## Non-ECG Multimodal
+
+| Title | N | Stimuli | Modalities |
+|-------|---|---------|------------|
+| [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/) | 32 | 40 music video clips | EEG, EDA, BVP, Respiration, Skin Temp |
+| [EEVR](https://melangelabiiitd.github.io/EEVR/) | 37 | Immersive 360° VR videos | BVP, EDA, PPG |
 
 
