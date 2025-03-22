@@ -9,7 +9,7 @@ To contribute a new resource, open an issue mentioning it, or a pull request wit
 ---
 
 ## Table of Contents
-So far, the datasets are categorized into five main types:
+So far, the datasets are categorized into the following sections:
 
 1. [Cognitive Load](#cognitive-load) – Includes datasets for assessing mental workload during  cognitive tasks.
 2. [Stress](#stress) – Includes datasets focused on stress responses under different conditions.  
@@ -49,7 +49,6 @@ So far, the datasets are categorized into five main types:
 | [DREAMER](https://zenodo.org/records/546113) | 23 | Watching 18 film clips | EEG, ECG |
 | [AMIGOS (A Dataset for Affect, Personality and Mood Research on Individuals and Groups)](https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/) | 40 | Watching short and long videos individually and in groups | EEG, ECG, GSR, Facial Videos |
 | [CASE (Continuously Annotated Signals of Emotion)](https://gitlab.com/karan-shr/case_dataset) | 30 | Watching various videos | ECG, BVP, EMG, GSR, Respiration, Skin Temperature |
-| [Emognition](https://www.nature.com/articles/s41597-022-01262-0) | 43 | Watching short film clips eliciting nine discrete emotions | EEG, BVP, HR, EDA, SKT, ACC, GYRO, Upper-body Videos |
 | [EmoWear](https://www.nature.com/articles/s41597-024-03429-3) | 49 | Watching emotionally stimulating video clips | ECG, BVP, EDA, Respiration, Skin Temperature, Accelerometer, Gyroscope |
 | [ECG and GSR Data for Emotion Recognition](https://data.mendeley.com/datasets/g2p7vwxyn2/2) | 25 | Watching stimulus videos designed to elicit specific emotions | ECG, GSR |
 | [A2ES (Asian Affective and Emotional State)](https://www.mdpi.com/1999-4893/16/3/130) | 47 | Emotion elicitation tasks | ECG, PPG |
@@ -95,7 +94,8 @@ So far, the datasets are categorized into five main types:
 ## Non-ECG Multimodal
 
 | Title | N | Stimuli | Modalities |
-|-------|---|---------|------------|
+|-------|---|---------|------------| 
+| [Emognition](https://www.nature.com/articles/s41597-022-01262-0) | 43 | Watching short film clips eliciting nine discrete emotions | EEG, BVP, HR, EDA, SKT, ACC, GYRO, Upper-body Videos |
 | [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/) | 32 | 40 music video clips | EEG, EDA, BVP, Respiration, Skin Temp |
 | [EEVR](https://melangelabiiitd.github.io/EEVR/) | 37 | Immersive 360° VR videos | BVP, EDA, PPG |
 
